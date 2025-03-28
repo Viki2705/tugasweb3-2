@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>test</title>
+    <style>
+      main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        height: 82vh;
+        width: 80vw;
+        gap: 3rem;
+        margin: 0 auto;
+        border: 15px solid gainsboro;
+        border-color: rgba(220, 220, 220, 0.7);
+        box-sizing: border-box;
+        padding: 2rem;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .title {
+        text-align: center;
+        position: absolute;
+        left: -9%;
+        rotate: -90deg;
+        margin: 0;
+        opacity: 0.7;
+      }
+
+      .title h1 {
+        font-size: 5.6rem;
+        color: #b8b8b8;
+        margin: 0;
+        opacity: 0.6;
+      }
+
+      .about {
+        display: flex;
+        flex-direction: column;
+        margin-left: 8em;
+        width: 40%;
+        align-items: last baseline;
+        justify-content: center;
+      }
+
+      .about h1 {
+        font-size: 2.5rem;
+        color: #333;
+        margin: 0;
+        
+      }
+
+      .about div:first-child p {
+        font-size: 1.3rem;
+        color: #333;
+        margin: 0;
+      }
+
+      .about h3 {
+        font-size: 1.3rem;
+        font-weight: lighter;
+        color: #333;
+        margin-top: 2rem;
+        margin-bottom: 0;
+      }
+
+      .about p {
+        font-size: 12pt;
+      }
+
+      .biodata {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        justify-content: center;
+      }
+
+      .biodata ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .biodata ul li {
+        margin: 0.5rem 0;
+        font-size: 9pt;
+      }
+
+      .biodata div:last-child {
+        background-color: rgb(236, 236, 236, 0.7);
+        width: 20rem;
+        padding: 2rem;
+        margin-bottom: 6rem;
+      }
+
+      .biodata div:first-child {
+        border: 4px solid gainsboro;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        padding: 5px;
+        border-color: rgba(220, 220, 220, 0.7);
+      }
+
+      span {
+        font-weight: bold;
+      }
+
+ 
+      button {
+        text-decoration: none;
+        background-color: hsl(211, 94%, 67%);
+        color: white;
+        padding: 0.5rem 1rem;
+        border: none;
+        cursor: pointer;
+        border-radius: 30px;
+        width: 12rem;
+      }
+
+      button a {
+        color: white;
+        text-decoration: none;
+      }
+
+      button:hover {
+        background-color: #c6cfda;
+        transition: all 0.3s;
+      }
+    </style>
+  </head>
+  <body>
+
+    <main>
+ 
+      <div class="title">
+        <h1>ABOUT.</h1>
+      </div>
+
+      <div class="about">
+        <div>
+          <h1>Fiki Fauzianto</h1>
+          <p>UI/UX Designer</p>
+        </div>
+        <div>
+          <h3>
+            A <span>Talented UI/UX DESINGER</span> located in our lovely
+            earth
+          </h3>
+        </div>
+        <div>
+          <p>
+            I specialize in UI/UX design, focusing on 
+            user-friendly interfaces, wireframing, and prototyping. 
+            Skilled in Figma, Adobe XD, and user research to enhance 
+            digital experiences.
+          </p>
+        </div>
+        <button>
+            My Portofolio
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+      </div>
+      <!-- Biodata -->
+      <div class="biodata">
+        <div>
+          <img
+            src="https://media.licdn.com/dms/image/v2/D4E03AQFM6
+            _4RFqe2MQ/profile-
+            displayphoto-shrink_800_800/profile-
+            displayphoto-shrink_800_800/0/1690852618887?e=
+            1748476800&v=beta&t=KWpYDRsSiosFhRdY2-I4Bp5JNaQY1EosmCiKuGKmS1A"
+            alt=""
+            width="100"
+          />
+        </div>
+        <div>
+          <!-- Biodata -->
+          <ul>
+            <li><span>Birthday:</span> 27/05/2005</li>
+            <li><span>Phone:</span> (+62 8132 9877 308)</li>
+            <li><span>Email:</span> fauzifiki9@gmail.com</li>
+            <li>
+              <span>Address:</span> Balerante, Kemalang, Klaten
+              Jawa Tengah
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
